@@ -62,7 +62,7 @@ const newPayment = async (req, res) => {
     })
     const mailOptionsB = {
         from: process.env.EMAIL,
-        to: "nagaraj022000@gmail.com" ,  
+        to: "aweganyz@gmail.com" ,  
         subject: "Enquiry Details",
         html: `
         <div style="height: auto; width:100% ;backgroud-color:white; padding:30px">
